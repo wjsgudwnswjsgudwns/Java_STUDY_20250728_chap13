@@ -22,12 +22,13 @@ public class BoardListTest {
 		board1.setContents("가입인사 드립니다.");
 		board1.setDate(new Timestamp(nowDate.getTime()));
 		
-		boardList.add(board1);
+		boardList.add(board1); // 보드 리스트에 저장
 		
 		boardList.add(new Board("이순신", "저는 이순신입니다", "저는 조선의 해군 장군입니다", new Timestamp(nowDate.getTime())));
-		Board board2 = new Board("김유신", "저는 김유신입니다", "저는 신라의 장군입니다", new Timestamp(nowDate.getTime()));
+		// 보드 리스트에 저장
 		
-		boardList.add(board2);
+		Board board2 = new Board("김유신", "저는 김유신입니다", "저는 신라의 장군입니다", new Timestamp(nowDate.getTime()));
+		boardList.add(board2); // 보드 리스트에 저장
 		
 		System.out.println("제 목 / 글 내 용 / 글 쓴 이 / 글 쓴 날 짜");
 		System.out.println("----------------------------------------------------------------------");
