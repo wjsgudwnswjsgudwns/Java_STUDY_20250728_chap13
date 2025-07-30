@@ -26,6 +26,12 @@ public class ArrayListTest {
 		
 		System.out.println(strList.get(0)); // Kor이 제일 먼저 들어가서 1번
 		System.out.println(strList.get(1)); // 인덱스 1에 있던 USA가 삭제되어 Jap이 당겨짐.
+		
+		System.out.println("===============");
+		
+		for(String str : strList) {
+			System.out.println(str);
+		}
 	}
 
 }
